@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/prmtaiwan/git_test/
+    - /bin/cp -R * $DEPLOYPATH
+    
